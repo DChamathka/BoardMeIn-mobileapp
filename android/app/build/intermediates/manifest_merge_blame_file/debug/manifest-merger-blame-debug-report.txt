@@ -1,0 +1,145 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.boardmein"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->E:\ITM\L2\MobileApp\BoardMeIn\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->E:\ITM\L2\MobileApp\BoardMeIn\android\app\src\debug\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->E:\ITM\L2\MobileApp\BoardMeIn\android\app\src\main\AndroidManifest.xml:4:5-67
+12-->E:\ITM\L2\MobileApp\BoardMeIn\android\app\src\main\AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->E:\ITM\L2\MobileApp\BoardMeIn\android\app\src\main\AndroidManifest.xml:5:5-64
+13-->E:\ITM\L2\MobileApp\BoardMeIn\android\app\src\main\AndroidManifest.xml:5:22-62
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->E:\ITM\L2\MobileApp\BoardMeIn\android\app\src\main\AndroidManifest.xml:6:5-80
+14-->E:\ITM\L2\MobileApp\BoardMeIn\android\app\src\main\AndroidManifest.xml:6:22-78
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+15-->[com.facebook.flipper:flipper:0.75.1] C:\Users\Dulini\.gradle\caches\transforms-2\files-2.1\a8f6015f96666ab8d93bfe5b64998bc8\jetified-flipper-0.75.1\AndroidManifest.xml:16:5-76
+15-->[com.facebook.flipper:flipper:0.75.1] C:\Users\Dulini\.gradle\caches\transforms-2\files-2.1\a8f6015f96666ab8d93bfe5b64998bc8\jetified-flipper-0.75.1\AndroidManifest.xml:16:22-73
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+16-->[:react-native-maps] E:\ITM\L2\MobileApp\BoardMeIn\node_modules\react-native-maps\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-81
+16-->[:react-native-maps] E:\ITM\L2\MobileApp\BoardMeIn\node_modules\react-native-maps\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:22-78
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[lk.payhere:androidsdk:2.0.31] C:\Users\Dulini\.gradle\caches\transforms-2\files-2.1\71820d4a798b0b4275d9e668bbe7bcf1\jetified-androidsdk-2.0.31\AndroidManifest.xml:12:5-79
+17-->[lk.payhere:androidsdk:2.0.31] C:\Users\Dulini\.gradle\caches\transforms-2\files-2.1\71820d4a798b0b4275d9e668bbe7bcf1\jetified-androidsdk-2.0.31\AndroidManifest.xml:12:22-76
+18
+19    <uses-feature
+19-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Dulini\.gradle\caches\transforms-2\files-2.1\faf3edd0a0a40b32e6c32885cc662e42\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+20        android:glEsVersion="0x00020000"
+20-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Dulini\.gradle\caches\transforms-2\files-2.1\faf3edd0a0a40b32e6c32885cc662e42\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+21        android:required="true" />
+21-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Dulini\.gradle\caches\transforms-2\files-2.1\faf3edd0a0a40b32e6c32885cc662e42\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+22
+23    <application
+23-->E:\ITM\L2\MobileApp\BoardMeIn\android\app\src\main\AndroidManifest.xml:7:5-29:19
+24        android:name="com.boardmein.MainApplication"
+24-->E:\ITM\L2\MobileApp\BoardMeIn\android\app\src\main\AndroidManifest.xml:8:7-38
+25        android:allowBackup="false"
+25-->E:\ITM\L2\MobileApp\BoardMeIn\android\app\src\main\AndroidManifest.xml:12:7-34
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.3.1] C:\Users\Dulini\.gradle\caches\transforms-2\files-2.1\3975ffd70914deb17405b14313b8e4ba\core-1.3.1\AndroidManifest.xml:24:18-86
+27        android:debuggable="true"
+28        android:icon="@mipmap/ic_launcher"
+28-->E:\ITM\L2\MobileApp\BoardMeIn\android\app\src\main\AndroidManifest.xml:10:7-41
+29        android:label="@string/app_name"
+29-->E:\ITM\L2\MobileApp\BoardMeIn\android\app\src\main\AndroidManifest.xml:9:7-39
+30        android:roundIcon="@mipmap/ic_launcher_round"
+30-->E:\ITM\L2\MobileApp\BoardMeIn\android\app\src\main\AndroidManifest.xml:11:7-52
+31        android:supportsRtl="true"
+31-->[lk.payhere:androidsdk:2.0.31] C:\Users\Dulini\.gradle\caches\transforms-2\files-2.1\71820d4a798b0b4275d9e668bbe7bcf1\jetified-androidsdk-2.0.31\AndroidManifest.xml:17:9-35
+32        android:theme="@style/AppTheme"
+32-->E:\ITM\L2\MobileApp\BoardMeIn\android\app\src\main\AndroidManifest.xml:14:7-38
+33        android:usesCleartextTraffic="true" >
+33-->E:\ITM\L2\MobileApp\BoardMeIn\android\app\src\debug\AndroidManifest.xml:8:9-44
+34        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+34-->E:\ITM\L2\MobileApp\BoardMeIn\android\app\src\debug\AndroidManifest.xml:11:9-86
+34-->E:\ITM\L2\MobileApp\BoardMeIn\android\app\src\debug\AndroidManifest.xml:11:19-83
+35        <activity
+35-->E:\ITM\L2\MobileApp\BoardMeIn\android\app\src\main\AndroidManifest.xml:15:7-25:18
+36            android:name="com.boardmein.MainActivity"
+36-->E:\ITM\L2\MobileApp\BoardMeIn\android\app\src\main\AndroidManifest.xml:16:9-37
+37            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+37-->E:\ITM\L2\MobileApp\BoardMeIn\android\app\src\main\AndroidManifest.xml:18:9-86
+38            android:label="@string/app_name"
+38-->E:\ITM\L2\MobileApp\BoardMeIn\android\app\src\main\AndroidManifest.xml:17:9-41
+39            android:launchMode="singleTask"
+39-->E:\ITM\L2\MobileApp\BoardMeIn\android\app\src\main\AndroidManifest.xml:19:9-40
+40            android:windowSoftInputMode="adjustResize" >
+40-->E:\ITM\L2\MobileApp\BoardMeIn\android\app\src\main\AndroidManifest.xml:20:9-51
+41            <intent-filter>
+41-->E:\ITM\L2\MobileApp\BoardMeIn\android\app\src\main\AndroidManifest.xml:21:9-24:25
+42                <action android:name="android.intent.action.MAIN" />
+42-->E:\ITM\L2\MobileApp\BoardMeIn\android\app\src\main\AndroidManifest.xml:22:13-65
+42-->E:\ITM\L2\MobileApp\BoardMeIn\android\app\src\main\AndroidManifest.xml:22:21-62
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->E:\ITM\L2\MobileApp\BoardMeIn\android\app\src\main\AndroidManifest.xml:23:13-73
+44-->E:\ITM\L2\MobileApp\BoardMeIn\android\app\src\main\AndroidManifest.xml:23:23-70
+45            </intent-filter>
+46        </activity>
+47
+48        <meta-data
+48-->E:\ITM\L2\MobileApp\BoardMeIn\android\app\src\main\AndroidManifest.xml:26:7-28:64
+49            android:name="com.google.android.geo.API_KEY"
+49-->E:\ITM\L2\MobileApp\BoardMeIn\android\app\src\main\AndroidManifest.xml:27:7-52
+50            android:value="AIzaSyAf1RHRhzmMbGxj7NJUjHgVeJvTZepqmA0" />
+50-->E:\ITM\L2\MobileApp\BoardMeIn\android\app\src\main\AndroidManifest.xml:28:7-62
+51
+52        <provider
+52-->[:react-native-image-picker] E:\ITM\L2\MobileApp\BoardMeIn\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-20:20
+53            android:name="com.imagepicker.ImagePickerProvider"
+53-->[:react-native-image-picker] E:\ITM\L2\MobileApp\BoardMeIn\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-63
+54            android:authorities="com.boardmein.imagepickerprovider"
+54-->[:react-native-image-picker] E:\ITM\L2\MobileApp\BoardMeIn\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-71
+55            android:exported="false"
+55-->[:react-native-image-picker] E:\ITM\L2\MobileApp\BoardMeIn\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-37
+56            android:grantUriPermissions="true" >
+56-->[:react-native-image-picker] E:\ITM\L2\MobileApp\BoardMeIn\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-47
+57            <meta-data
+57-->[:react-native-image-picker] E:\ITM\L2\MobileApp\BoardMeIn\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-19:70
+58                android:name="android.support.FILE_PROVIDER_PATHS"
+58-->[:react-native-image-picker] E:\ITM\L2\MobileApp\BoardMeIn\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-67
+59                android:resource="@xml/imagepicker_provider_paths" />
+59-->[:react-native-image-picker] E:\ITM\L2\MobileApp\BoardMeIn\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:17-67
+60        </provider>
+61
+62        <activity
+62-->[lk.payhere:androidsdk:2.0.31] C:\Users\Dulini\.gradle\caches\transforms-2\files-2.1\71820d4a798b0b4275d9e668bbe7bcf1\jetified-androidsdk-2.0.31\AndroidManifest.xml:18:9-21:65
+63            android:name="lk.payhere.androidsdk.PHMainActivity"
+63-->[lk.payhere:androidsdk:2.0.31] C:\Users\Dulini\.gradle\caches\transforms-2\files-2.1\71820d4a798b0b4275d9e668bbe7bcf1\jetified-androidsdk-2.0.31\AndroidManifest.xml:19:13-64
+64            android:launchMode="singleTop"
+64-->[lk.payhere:androidsdk:2.0.31] C:\Users\Dulini\.gradle\caches\transforms-2\files-2.1\71820d4a798b0b4275d9e668bbe7bcf1\jetified-androidsdk-2.0.31\AndroidManifest.xml:20:13-43
+65            android:theme="@style/ph_transparent.windowTitle" /> <!-- Needs to be explicitly declared on P+ -->
+65-->[lk.payhere:androidsdk:2.0.31] C:\Users\Dulini\.gradle\caches\transforms-2\files-2.1\71820d4a798b0b4275d9e668bbe7bcf1\jetified-androidsdk-2.0.31\AndroidManifest.xml:21:13-62
+66        <uses-library
+66-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Dulini\.gradle\caches\transforms-2\files-2.1\faf3edd0a0a40b32e6c32885cc662e42\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+67            android:name="org.apache.http.legacy"
+67-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Dulini\.gradle\caches\transforms-2\files-2.1\faf3edd0a0a40b32e6c32885cc662e42\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+68            android:required="false" />
+68-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Dulini\.gradle\caches\transforms-2\files-2.1\faf3edd0a0a40b32e6c32885cc662e42\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+69
+70        <activity
+70-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Dulini\.gradle\caches\transforms-2\files-2.1\2631375de80937c90cd3a1032ab35871\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+71            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+71-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Dulini\.gradle\caches\transforms-2\files-2.1\2631375de80937c90cd3a1032ab35871\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+72            android:exported="false"
+72-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Dulini\.gradle\caches\transforms-2\files-2.1\2631375de80937c90cd3a1032ab35871\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+73            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+73-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Dulini\.gradle\caches\transforms-2\files-2.1\2631375de80937c90cd3a1032ab35871\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+74
+75        <meta-data
+75-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Dulini\.gradle\caches\transforms-2\files-2.1\dcffa74d8d015470a7eae32b9eb648c7\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+76            android:name="com.google.android.gms.version"
+76-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Dulini\.gradle\caches\transforms-2\files-2.1\dcffa74d8d015470a7eae32b9eb648c7\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+77            android:value="@integer/google_play_services_version" />
+77-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Dulini\.gradle\caches\transforms-2\files-2.1\dcffa74d8d015470a7eae32b9eb648c7\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+78    </application>
+79
+80</manifest>

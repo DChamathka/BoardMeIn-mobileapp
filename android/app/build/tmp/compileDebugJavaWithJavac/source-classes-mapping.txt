@@ -1,0 +1,14 @@
+com/boardmein/BuildConfig.java
+ com.boardmein.BuildConfig
+com/boardmein/ReactNativeFlipper.java
+ com.boardmein.ReactNativeFlipper
+ com.boardmein.ReactNativeFlipper$1
+ com.boardmein.ReactNativeFlipper$2
+ com.boardmein.ReactNativeFlipper$2$1
+com/boardmein/MainApplication.java
+ com.boardmein.MainApplication
+ com.boardmein.MainApplication$1
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
+com/boardmein/MainActivity.java
+ com.boardmein.MainActivity
